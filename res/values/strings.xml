@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QueryBuilderExample</string>
+
+    <string name="totalLabel">Total</string>
+    <string name="facileLabel">Facile</string>
+    <string name="intermediaireLabel">Intermédiaire</string>
+    <string name="difficileLabel">Difficile</string>
+    <string name="recettesRapidesLabel">Recettes rapides: </string>
+
+
+    </resources>

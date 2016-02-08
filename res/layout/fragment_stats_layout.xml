@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+        >
+    
+    <TextView
+            android:id="@+id/nomUtilisateur"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/titleFontSize"
+            android:gravity="center"
+            />
+
+    <TextView
+            android:id="@+id/totalRecettes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/baseFontSize"
+            android:gravity="left"
+            />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:textSize="@dimen/baseFontSize"
+                android:text="@string/facileLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        <TextView
+                android:id="@+id/facileCount"
+                android:textSize="@dimen/baseFontSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:textSize="@dimen/baseFontSize"
+                android:text="@string/intermediaireLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        <TextView
+                android:id="@+id/intermediaireCount"
+                android:textSize="@dimen/baseFontSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:textSize="@dimen/baseFontSize"
+                android:text="@string/difficileLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        <TextView
+                android:id="@+id/difficileCount"
+                android:textSize="@dimen/baseFontSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/recettesRapides"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleFontSize">30sp</dimen>
+    <dimen name="baseFontSize">20sp</dimen>
+
+
+</resources>
